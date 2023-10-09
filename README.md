@@ -56,3 +56,6 @@ set MLFLOW_TRACKING_USERNAME=vkreddy317
 set MLFLOW_TRACKING_PASSWORD=aea730237e91c1097f0ab21d04495809812ad696 
 
 ```
+
+### ECR url
+304697532705.dkr.ecr.eu-north-1.amazonaws.com/kidney
