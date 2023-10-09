@@ -38,3 +38,21 @@ conda activate kidney
 ```bash
 pip install -r requirements.txt
 ```
+
+### dagshub
+[dagshub](https://dagshub.com/)
+
+MLFLOW_TRACKING_URI=https://dagshub.com/vkreddy317/Kidney-Disease-Classification-MLflow-DVC.mlflow \
+MLFLOW_TRACKING_USERNAME=vkreddy317 \
+MLFLOW_TRACKING_PASSWORD=aea730237e91c1097f0ab21d04495809812ad696 \
+python script.py
+
+Run this to export as env variables:
+```bash
+set MLFLOW_TRACKING_URI=https://dagshub.com/vkreddy317/Kidney-Disease-Classification-MLflow-DVC.mlflow 
+
+set MLFLOW_TRACKING_USERNAME=vkreddy317
+
+set MLFLOW_TRACKING_PASSWORD=aea730237e91c1097f0ab21d04495809812ad696 
+
+```
